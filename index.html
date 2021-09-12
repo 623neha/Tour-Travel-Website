@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tour and Travel Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars">
+
+        </div>
+
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#package">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" name="" id="search-bar" placeholder="Search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+    <div class="login-form-container">
+
+        <i class="fas fa-time" id="form-close"></i>
+
+        <form action="">
+            <h3>Login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">Remember me</label>
+            <p>forgot password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">Register now</a></p>
+        </form>
+    </div>
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>Adventure is worthwhile</h3>
+        <p>discover new places with us,adventure awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="image/vid-1.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-2.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-3.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-4.mp4"></span>
+        <span class="vid-btn" data-src="image/vid-5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="image/vid-1.mp4" id="video-slider" loop autoplay muted></video>
+    </div>
+</section>
+
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>B</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/book-img.svg">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <h3>where to</h3>
+                <input type="text" placeholder="place name">
+            </div>
+
+            <div class="inputbox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guest">
+            </div>
+
+            <div class="inputbox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+
+            <div class="inputbox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+             
+            <input type="submit" class="btn" value="book now">
+    
+        </form>
+
+
+    </div>
+</section>
+
+<section class="package" id="package">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+
+    <div class="box-container">
+
+        <div class="box">
+           <img src="image/p-1.jpg" alt="">
+            <div class="content">
+               <h3><i class="fas fa-map-marker-alt"></i>Mumbai</h3>
+               <p>Mumbai is the commercial capital of India. It is also known as the city that never sleeps. Mumbai is the perfect blend of culture, customs and lifestyles. Mumbai is India's most cosmopolitan city, its financial powerhouse and the nerve center of India's fashion industry.The city's also famous as the heart of the Bollywood film industry.</p>
+               <div class="stars">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                </div>
+                <div class="price">Rs-50k<span>70k</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/p-2.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Goa</h3>
+                <p>Goa is a famous tourist spot for Indians because of its dazzling nightlife that never ends. This city offers amazing, and exciting nightlife that starts from nightclubs, bars, beach shacks, and more with non-stop music, latest songs, perfect ambiance, dizzy neon lights, delectable food, and fancy drinks. Best season is summer</p>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                </div>
+                 <div class="price">Rs-50k <span>70k</span></div>
+                 <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/delhi.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Delhi</h3>
+                <p>Delhi has been the chosen Capital of India for centuries. Legend has it that the city of Indraprastha (the present day Delhi) was the grand capital of the kingdom led by the Pandavas (as mentioned in the Great Indian epic Mahabharata). It was the capital of Qutb ud-Din Aibak. New Delhi is often said to be “Dilwaalon ki Dilli”</p>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                </div>
+                 <div class="price">$50.00 <span>$100.00</span></div>
+                 <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/shimla.jpg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i>Shimla</h3>
+                <p> One of the most stunning hill resorts, Shimla is one of the most popular hill stations in northern India. Situated at an altitude of 2,205 meters, it used to be the summer capital of British India with a well-planned architecture. ... This capital city of Himachal Pradesh is famous for The Mall, ridge, and toy train.</p>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                </div>
+                 <div class="price">Rs-20k<span>30k</span></div>
+                 <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/shillong.jpg" alt="">
+            <div class="content">
+ 
+                <h3><i class="fas fa-map-marker-alt"></i>Shillong</h3>
+                <p> Apart from the natural beauty, Shillong also acts as the gateway to Meghalaya, the state famous for heavy rainfall, caves, tallest waterfalls, beautiful landscapes and amazing people and their culture. ... Shillong is also fast emerging as an education hub for the entire northeastern region.Shillong, formerly called Yeddo or Lewduh.</p>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                </div>
+                 <div class="price">Rs-40k<span>60k</span></div>
+                 <a href="#" class="btn">book now</a>
+ 
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/kasmir.jpg" alt="">
+            <div class="content">
+ 
+                <h3><i class="fas fa-map-marker-alt"></i>Jammu & Kashmir</h3>
+                <p>Jammu & Kashmir is the northern most state of India and is also known as the crown of India. Due to the impeccable natural beauty Kashmir is called the Paradise on Earth. ... Kashmir has everything to offer to a nature-lover, from snow-capped mountains,to gushing streams,to lakes and lush green gardens, Kashmir has it all.</p>
+                <div class="stars">
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="fas fa-star"></i>
+                   <i class="far fa-star"></i>
+                </div>
+                 <div class="price">rs-30k<span>50k</span></div>
+                 <a href="#" class="btn">book now</a>
+ 
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="services" id="services">
+
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+            <h3>Affordable hotels</h3>
+            <p>Car rental services. <br> Catering services. Concierge services. Courier services. Doctor on call. Dry cleaning. Excursions and guided tours. Flower arrangement.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+            <h3>Food and Drinks</h3>
+            <p>Vegetables. <br> Fruits. Grains, legumes, nuts and seeds. Meat and poultry. Fish and seafood. Dairy foods. Spinach and other leafy green vegetables. Eggs.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+            <h3>Safety guide</h3>
+            <p>Cleaning guestrooms, <br> including contact with dirty linens, trash, and frequently touched guestroom surfaces, such as countertops, handles, desks, remote controls, phones etc.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+            <h3>Around the world</h3>
+            <p>Around Earth <br> from east to west, or west to east, Around the world people are moving forward in line with the collective plan for the evolution of humanity</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+            <h3>Fastest travel</h3>
+            <p>We provide <br> fastest in affordable price, travelling by flight,train,bus etc. we also provide cab facility for our customers and provide proper guidance.</p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+            <h3>Adventure</h3>
+            <p>we provide <br> many adventure activity like Rock Climbing, Air Safari,Go-karting, Power Paragliding,Off-roading, Rural Activities, Thrill Camping, Escape Games etc.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="gallery" id="gallery">
+
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <img src="image/g-1.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-2.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-3.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-4.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-5.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-6.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-7.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-8.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+        <div class="box">
+            <img src="image/g-9.jpg" alt="">
+            <div class="content">
+                <h3>Amazing places</h3>
+                <p>India, officially the Republic of India, is a country in South Asia. It is the seventh-largest country by area,the most populous democracy in the world.</p>
+                <a href="#" class="btn">see more</a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="review" id="review">
+
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    
+                <div class="box">
+                    <img src="image/pic1.png" alt="">
+                    <h3>Shri Devi</h3>
+                    <p>We spent 5D and 6N in Manali. Ms. Mithu was very much helpful in planning the trip she guided us very well on planning. Also our driver in manali was very friendly and guided on places to visit and his time management and safe driving skills were excellent.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/pic2.png" alt="">
+                    <h3>Rahul Sharma</h3>
+                    <p>We had very good experience and up-to our expectations. 2 Nights vacation we planned went full of excitement and fun.. We appreciate urgent attention from Sahil on little hiccups we had during our stay.. Overall wonderful experience with Driver and Hotel and very comfortable drive. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/pic4.png" alt="">
+                    <h3>Naveen S</h3>
+                    <p>Trip was well organized, Overall stay and vehicle they have provide was really good i didn't feel anywhere left, they are really well professional they inform on prior, if you ask safest travel agency, I am from south india going there and searching for hotels and stay with my wife it would have been difficult. </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <img src="image/pic3.png" alt="">
+                    <h3>Ruchi Yadav</h3>
+                    <p>It was an amazing trip we had Neha & Sharukh from Travel Teach Helped us plan our trip to Kasmir, neha & Sharukh was available 24/7 on call whenever we needed help. He was able to re-plan the trip without any problem when we decided to change one of the destinations. I would definitely recommend him for planning your next trip.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+
+</section>
+
+<section class="contact" id="contact">
+
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="row">
+
+        <div class="image">
+            <img src="image/contact-img.svg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+                <input type="text" placeholder="enter name">
+                <input type="email" placeholder="enter email">
+            </div>
+            <div class="inputbox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+            </div>
+            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+
+    </div>
+
+
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>About us</h3>
+            <p>Founded in 2015, Travel is India’s leading online holiday marketplace bringing both the travelers, and trusted & expert travel agents on a common platform. It is on its way of encompassing all the components of holiday eco-system through its highly innovative and technology-focused product.
+            </p>
+        </div>
+        <div class="box">
+            <h3>Branch location</h3>
+            <a href="#">India</a>
+            <a href="#">USA</a>
+            <a href="#">Mumbai</a>
+            <a href="#">Delhi</a>
+            <a href="#">Indore</a>
+            <a href="#">Noida</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">book</a>
+            <a href="#">packages</a>
+            <a href="#">services</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+        </div>
+        <div class="box">
+            <h3>Follow us</h3>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Telegram</a>
+            <a href="#">Youtube</a>
+            <a href="#">Whatsapp</a>
+        </div>
+
+    </div>
+
+    <h1 class="credit">created by <span>Neha Kirar</span> | @all right reserved!</h1>
+</section>
+
+
+   <script src="script.js"></script>
+</body>
+</html>
